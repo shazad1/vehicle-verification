@@ -1,0 +1,1 @@
+export const GET_INPUT_INFO = 'GET_INPUT_INFO';
