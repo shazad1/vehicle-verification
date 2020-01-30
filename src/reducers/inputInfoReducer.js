@@ -7,7 +7,7 @@ export default function(state = initialState, action) {
     switch(action.type) {
 
         case GET_INPUT_INFO:
-            return ...state;
+            return state;
         default:
             return state;
     }

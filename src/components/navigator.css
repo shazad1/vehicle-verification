@@ -1,0 +1,19 @@
+.area {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+}
+
+.area > div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.area > div > i {
+    font-size: 3em;
+    color: #bbb;
+    background-color: #24bdc9;
+    align-self: center;
+}

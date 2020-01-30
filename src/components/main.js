@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Navigator from './navigator';
 
   class Main extends Component {
 
@@ -26,9 +26,10 @@ import React, { Component } from 'react';
               </div>
             </div>
           </div>
-          
+    
           <section   className="ftco-section bg-light">
               <div   className="container">
+              <Navigator></Navigator>
                   <div   className="row justify-content-center">
                       <div   className="col-md-8   ">
                 <form action="#"   className="domain-form">
